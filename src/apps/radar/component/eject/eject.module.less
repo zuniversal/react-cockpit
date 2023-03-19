@@ -1,0 +1,107 @@
+// 弹出层样式
+  .popup{
+  padding:0 0 0 12px;
+    >h2{
+      height: 16px;
+      font-family: 'PingFang SC';
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 16px;
+      letter-spacing: -0.5px;
+      color: #333333;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #F5F5F5;
+    }
+    >h4{
+      font-family: 'PingFang SC';
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 16px;
+      letter-spacing: -0.5px;
+      color: #333333;
+    }
+     h6{
+      margin: 0;
+      margin-bottom: 5px;
+      color: #999999;
+      font-family: 'PingFang SC';
+      font-size: 10px;
+      font-weight: 400;
+      line-height: 16px;
+      letter-spacing: -0.5px;
+    }
+    .outBox{
+      margin-right: 12px;
+      margin-bottom: 10px;
+      border-radius: 8px  ;
+      height: 48px;
+      background: #F5F5F5;
+      display: flex;
+      justify-content: space-between;
+      >div{
+        flex: 1;
+        display: flex;
+        align-items: center;
+      }
+      .leftBox{
+        img{
+          margin:0 5px 0 10px;
+        }
+        span{
+          font-size: 16px;
+          color: #333333
+        }
+      }
+      .centerBox{
+        span{
+          font-size: 12px;
+          color: #999;
+        }
+      }
+      .rightBox{
+        
+        :global {
+          .adm-button{
+            color: #fff;
+            margin-left: 50px;
+            font-size: 10px;
+            border-radius: 15px;
+            background-color: #6E94F2;
+           
+          }
+        }
+        
+      }
+    }
+    .bottomBox{
+      >div:nth-child(1){
+        margin-top: 12px;
+        font-family: 'PingFang S'C;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(10, 17, 26, 0.5);
+        img{
+          margin-right: 3px;
+        }
+      }
+      >div:nth-of-type(2){
+        padding-right: 12px;
+        margin-top: 18px;
+        :global{
+          .adm-button{
+            margin: auto;
+            width: 343px;
+            height:46px;
+            color: #fff;
+            font-size: 16px;
+            border-radius: 6px;
+            background-color: #6E94F2;
+          }
+        }
+      }
+    }
+  }
+  

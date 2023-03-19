@@ -1,0 +1,15 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="7" cy="16" r="2" fill="white"/>
+<circle cx="4.5" cy="10.5" r="2.5" fill="white"/>
+<circle cx="6.5" cy="5.5" r="1.5" fill="white"/>
+<circle cx="9.5" cy="10.5" r="1.5" fill="white"/>
+<circle cx="10.5" cy="13.5" r="1.5" fill="white"/>
+<circle cx="15" cy="10" r="1" fill="white"/>
+<circle cx="18" cy="12" r="1" fill="white"/>
+<circle cx="21" cy="9" r="1" fill="white"/>
+<circle cx="15" cy="13" r="1" fill="white"/>
+<circle cx="18" cy="15" r="1" fill="white"/>
+<circle cx="21" cy="12" r="1" fill="white"/>
+<circle cx="4.5" cy="19.5" r="1.5" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M10.6 20.0052V3.99444L15.4 6.47413V8H17V6.10876C17 5.73473 16.7913 5.39198 16.459 5.22031L10.459 2.1207C9.79339 1.77686 9 2.25999 9 3.00915V20.9905C9 21.7396 9.79339 22.2228 10.459 21.8789L16.459 18.7793C16.7913 18.6076 17 18.2649 17 17.8908V16H15.4V17.5255L10.6 20.0052Z" fill="white"/>
+</svg>

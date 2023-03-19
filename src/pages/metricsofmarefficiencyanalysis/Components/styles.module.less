@@ -1,0 +1,71 @@
+.table {
+  background-color: #fff;
+  width: 100%;
+  min-width: 800px;
+  text-align: center;
+  th{
+      background: rgba(153,204,255);
+      color:#333;
+      padding:10px 0;
+  }
+  td{
+      padding:5px 0
+  }
+}
+
+.pie_tooltip {
+  // background-color: #000!important;
+  // border-color: #000!important;
+  z-index: 102 !important;
+
+  .pie_tooltip_title {
+    // color: #fff;
+    line-height: 30px;
+    position: relative;
+  }
+
+  .pie_tooltip_arrow {
+    position: absolute;
+    top: 0px;
+    right: -8px;
+    width: 24px;
+    height: 24px;
+    background-image: url('../../../assets/icons/costright.svg');
+    background-repeat: no-repeat;
+  }
+
+
+  .pie_tooltip_color1 {
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #766BF5;
+    position: absolute;
+    left: 0px;
+    top: 7px;
+  }
+
+  .pie_tooltip_color2 {
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #E08142;
+    position: absolute;
+    left: 0px;
+    top: 7px;
+  }
+
+  .pie_tooltip_desc {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+
+
+
+    .pie_series_name {
+      margin-left: 12px;
+      margin-right: 12px;
+    }
+  }
+}

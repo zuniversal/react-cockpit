@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'DIN Alternative';
+  src: url('./assets/fonts/DIN-Medium.otf');
+}
+
+// 水印旋转角度
+.adm-water-mark {
+  transform: rotate(-20deg);
+  z-index: 102 !important;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  /* To smooth any scrolling behavior */
+  -webkit-overflow-scrolling: touch;
+  margin: 0px;
+  padding: 0px;
+  /* Allows content to fill the viewport and go beyond the bottom */
+  min-height: 100%;
+}
+
+html {
+  /* scroll-behavior: smooth; */
+  /* Prevent text size change on orientation change https://gist.github.com/tfausak/2222823#file-ios-8-web-app-html-L138 */
+  -webkit-text-size-adjust: 100%;
+  height: calc(100% + env(safe-area-inset-top));
+}
+.bodyNoScro11 {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+body {
+  /* Allows you to scroll below the viewport; default value is visible */
+  overflow-y: auto;
+  overscroll-behavior-y: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -ms-overflow-style: scrollbar;
+}

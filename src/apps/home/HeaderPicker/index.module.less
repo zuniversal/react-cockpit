@@ -1,0 +1,64 @@
+
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+.header__left {}
+
+.header__right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__right__buttonGroup {
+  border: 1px solid #DEDEDE;
+  // border-radius: 4px;
+  border-radius: 6px;
+  height: 36px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+
+  button {
+    // padding-top: 0px;
+    // padding-bottom: 0px;
+    --border-color: transparent;
+    --text-color: rgba(147, 150, 169, 1);
+    --background-color: transparent;
+    height: 32px;
+    width: 32px;
+    padding: 0px;
+    margin: 1px;
+    // border-radius: 2px;
+
+    &.active {
+    --text-color: #fff;
+    font-size: 14px;
+    --background-color: rgba(88, 122, 227, 1);
+    }
+  }
+
+}
+
+.datePickerCss {
+  :global {
+    .adm-picker-view-column {
+      width: 34%;
+      flex: none;
+    }
+    .adm-picker-view {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+

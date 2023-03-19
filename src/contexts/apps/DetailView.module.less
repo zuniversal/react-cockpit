@@ -1,0 +1,40 @@
+.DetailView {
+  padding: 10px;
+  min-height: 100vh;
+
+  .Bg {
+    position: fixed;
+    background-color: #EEEFF3;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: -2;
+  }
+
+  .BannerBg {
+    position: fixed;
+    width: 100vw;
+    height: calc(145/375* 100vw);
+    background-image: url(../../assets/misc/detail_bg.svg);
+    background-size: 100vw calc(145/375* 100vw);
+    z-index: -1;
+    top: 0;
+    left: 0;
+  }
+}
+
+.toaster {
+  :global {
+    .adm-toast-main {
+      padding: 8px!important;
+      max-width: 75vw!important;
+      width: auto!important;
+      top: 3%!important;
+
+      .adm-auto-center{ 
+        display: block;
+      }
+    }
+  }
+}

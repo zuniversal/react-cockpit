@@ -1,0 +1,150 @@
+//内部列表
+.actionSheetList{
+    padding-left: 16px;
+    .actionSheetListItem{
+        padding:16px 0;
+        font-size: 12px;
+        color: #333;
+        display: flex;
+        align-items: center;
+        border-top: 1px solid #f5f5f5;
+        img{
+            width: 16px;
+            margin-right: 8px;
+        }
+        &:first-child{
+            border:none
+        }
+    }
+}
+.actionSheetShare{
+    padding:16px;
+    .actionSheetShareTitle{
+        display: flex;
+        justify-content: space-between;
+        color: #333;
+        font-size: 14px;
+        padding:0 0 16px;
+        span{
+            color: #6E94F2;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            &:after{
+                content:'';
+                display: inline-block;
+                width: 8px;
+                height: 8px;
+                border:2px solid #6E94F2;
+                border-width:2px 2px 0 0;
+                transform: rotate(45deg);
+            }
+        }
+    }
+    .actionSheetShareList{
+        display: flex;
+        .actionSheetShareListItem{
+            display: flex;
+            flex-direction:column;
+            margin-right:24px;
+            justify-content: center;
+            align-items: center;
+            font-size: 10px;
+            min-width: 60px;
+            img{
+                width: 40px;
+                padding:8px;
+                border-radius:10px;
+                background-color: #f5f5f5;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    
+}
+.actionSheetFunnel{
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #333;
+    .actionSheetFunnelBox{
+        padding:16px;
+        .actionSheetFunnelTitle{
+
+        }
+        .actionSheetFunnelList{
+            display: flex;
+            align-items: center;
+            .actionSheetFunnelListItem{
+                background: #FFFFFF;
+                font-size: 12px;
+                line-height: 14px;
+                padding:8px 14px;
+                margin:16px 16px 0 0;
+                border: 1px solid #DEDEDE;
+                border-radius: 4px;
+                box-sizing: border-box;
+                &.actionSheetFunnelListItemSelect{
+                    position: relative;
+                    background-color: rgba(50, 90, 231, 0.1);
+                    padding:9px 15px;
+                    border: none;
+                    img{
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+.actionSheetFunnelTitleBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: '#333';
+    .actionSheetFunnelClose{
+        position: relative;
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+        &::after,&::before{
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            width: 1px;
+            height: 16px;
+            margin-top: -8px;
+            background-color: #ccc;
+            transform: rotate(45deg);
+            border-radius: 2px;
+        }
+        &::before{
+            transform: rotate(-45deg);
+        }
+    }
+    .rest{
+        width: 40px;
+        text-align: center;
+        color:#6E94F2;
+        margin-right: 10px;
+        font-size: 12px;
+    }
+}
+.diaInput{
+    background: #f5f5f5;
+    border-radius: 4px;
+    input{
+        font-size: 14px;
+        padding:0 10px;
+        line-height:40px;
+    }
+}

@@ -1,0 +1,36 @@
+.labelCard {
+    background: #F9F9F9;
+    border: 0.5px solid #EEEEF3;
+    box-shadow: 0px 2px 8px #F8F8F8;
+}
+.labelCardActive {
+    background: rgba(103, 142, 242, 0.1);
+    border: 0.5px solid #6E94F2;
+    box-shadow: 0px 2px 8px #F8F8F8;
+    -webkit-animation: active 1s;
+    -moz-animation: active 1s;
+    animation: active 1s;
+    -webkit-animation-duration: 1;
+    -moz-animation-duration: 1;
+    animation-duration: 1;
+}
+@-webkit-keyframes active {
+    0% {
+        opacity: 0.3;
+        border: .5px solid #EEEEF3;
+    }
+    100% {
+        opacity: 1;
+        border: .5px solid #6E94F2;
+    }
+}
+@keyframes active {
+    0% {
+        opacity: 0.3;
+        border: .5px solid #EEEEF3;
+    }
+    100% {
+        opacity: 1;
+        border: .5px solid #6E94F2;
+    }
+}

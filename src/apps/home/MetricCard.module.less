@@ -1,0 +1,24 @@
+
+@primary: rgba(62, 120, 217, 1);
+
+.focusBtn{
+    height: 25px;
+    background-color: transparent;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 12px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    color: rgba(147, 150, 169, 1);
+    border-color: rgba(211, 211, 211, 1);
+    .icon{
+        font-size: 14px;
+    }
+}
+
+.unFocusBtn{
+    .focusBtn();
+    color: @primary;
+    border-color: @primary;
+}

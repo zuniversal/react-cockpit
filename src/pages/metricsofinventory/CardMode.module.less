@@ -1,0 +1,24 @@
+.cards {
+  --gap: 4px;
+  --columns: 2;
+  --gap-horizontal: var(--gap);
+  --gap-vertical: var(--gap);
+  display: grid;
+  grid-gap: 10px;
+  -webkit-column-gap: var(--gap-horizontal);
+  column-gap: var(--gap-horizontal);
+  row-gap: var(--gap-vertical);
+  grid-template-columns: repeat(var(--columns),minmax(0,1fr));
+  align-items: stretch;
+}
+
+
+
+.Card {
+
+  :global {
+    .g2-html-annotation {
+      pointer-events: unset!important;
+    }
+  }
+}
