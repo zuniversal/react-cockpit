@@ -65,5 +65,5 @@ export default defineConfig({
   npmClient: 'npm',
   model: {},
   dva: {},
-  // plugins: ['@umijs/plugins/dist/dva', '@umijs/plugins/dist/model'],
+  plugins: ['@umijs/plugins/dist/dva', '@umijs/plugins/dist/model'],
 });
